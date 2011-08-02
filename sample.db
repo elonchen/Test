@@ -1,0 +1,5 @@
+sqlite> CREATE TABLE TbNote(
+...>  id INTEGER PRIMARY KEY,
+...>  title VARCHAR(255),
+...>  body VARCHAR(255)
+...> );

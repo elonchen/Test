@@ -1,0 +1,1047 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TradeShowInfoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TradeShowInfoAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* TradeShowInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* TradeShowInfoViewController.m */; };
+		DB0A89941356D7FB0094EE3E /* EditEducation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A89921356D7FB0094EE3E /* EditEducation.m */; };
+		DB0A89951356D7FB0094EE3E /* EditEducation.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB0A89931356D7FB0094EE3E /* EditEducation.xib */; };
+		DB0A89C11356D9A50094EE3E /* EducationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A89BF1356D9A50094EE3E /* EducationController.m */; };
+		DB0A89C21356D9A50094EE3E /* EducationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB0A89C01356D9A50094EE3E /* EducationController.xib */; };
+		DB0C10E61360274C00C7052B /* DoneCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C10E51360274C00C7052B /* DoneCompany.m */; };
+		DB0C10E81360278A00C7052B /* DoneCompany.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB0C10E71360278A00C7052B /* DoneCompany.xib */; };
+		DB384FCE135815E000E19839 /* NotePhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB384FCC135815E000E19839 /* NotePhotoCell.m */; };
+		DB384FFB13581B6800E19839 /* NotePhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB384FFA13581B6800E19839 /* NotePhotoCell.xib */; };
+		DB38513A13583B5700E19839 /* MeetingController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB38513813583B5700E19839 /* MeetingController.m */; };
+		DB38513B13583B5700E19839 /* MeetingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB38513913583B5700E19839 /* MeetingController.xib */; };
+		DB38517B1358458300E19839 /* EditMeeting.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3851791358458300E19839 /* EditMeeting.m */; };
+		DB38517C1358458300E19839 /* EditMeeting.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB38517A1358458300E19839 /* EditMeeting.xib */; };
+		DB477025133DABF9004FFB85 /* ImportanceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB477024133DABF9004FFB85 /* ImportanceCell.xib */; };
+		DB477029133DAC16004FFB85 /* ImportanceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB477028133DAC16004FFB85 /* ImportanceCell.m */; };
+		DB477032133DB097004FFB85 /* CompanyNameAndBoothNumberCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB477031133DB097004FFB85 /* CompanyNameAndBoothNumberCell.xib */; };
+		DB477035133DB0A0004FFB85 /* CompanyNameAndBoothNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB477034133DB0A0004FFB85 /* CompanyNameAndBoothNumberCell.m */; };
+		DB477062133DC063004FFB85 /* TwoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB477061133DC063004FFB85 /* TwoTableViewCell.xib */; };
+		DB477066133DC0FF004FFB85 /* TwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB477065133DC0FF004FFB85 /* TwoTableViewCell.m */; };
+		DB477127133DE158004FFB85 /* EditCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = DB477125133DE158004FFB85 /* EditCompany.m */; };
+		DB477128133DE158004FFB85 /* EditCompany.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB477126133DE158004FFB85 /* EditCompany.xib */; };
+		DB4771CF133DF4EA004FFB85 /* plus_44_44.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4771CE133DF4EA004FFB85 /* plus_44_44.png */; };
+		DB59968B1339CF8400CFCC25 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = DB59968A1339CF8400CFCC25 /* Constants.m */; };
+		DB74B1E3133B0F5C00BE1AAC /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB74B1E2133B0F5C00BE1AAC /* SectionHeaderView.m */; };
+		DB74B239133B1D0F00BE1AAC /* NotePhotoHomePageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB74B238133B1D0F00BE1AAC /* NotePhotoHomePageCell.m */; };
+		DB74B23B133B1D6D00BE1AAC /* NotePhotoHomePageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB74B23A133B1D6D00BE1AAC /* NotePhotoHomePageCell.xib */; };
+		DB74B39B133B6D3900BE1AAC /* NotesFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB74B39A133B6D3900BE1AAC /* NotesFieldCell.m */; };
+		DB74B39D133B6D5500BE1AAC /* NotesFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB74B39C133B6D5500BE1AAC /* NotesFieldCell.xib */; };
+		DB74B3FD133B7B5000BE1AAC /* HomePageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB74B3FC133B7B5000BE1AAC /* HomePageCell.m */; };
+		DB74B3FF133B7B9E00BE1AAC /* HomePageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB74B3FE133B7B9E00BE1AAC /* HomePageCell.xib */; };
+		DB75C11413305C6700801B13 /* FloorController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB75C11313305C6700801B13 /* FloorController.m */; };
+		DB75C11713305C7400801B13 /* FloorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB75C11613305C7400801B13 /* FloorController.xib */; };
+		DBA5A64913271A0E001E2038 /* HotelInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA5A64813271A0E001E2038 /* HotelInfoController.m */; };
+		DBA5A64B13271A18001E2038 /* HotelInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBA5A64A13271A18001E2038 /* HotelInfoController.xib */; };
+		DBA5A7D11327624D001E2038 /* IconNav.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA5A7D01327624D001E2038 /* IconNav.m */; };
+		DBA5A7EA13276327001E2038 /* Calandar-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA5A7E113276327001E2038 /* Calandar-Icon.png */; };
+		DBA5A7EB13276327001E2038 /* Education-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA5A7E213276327001E2038 /* Education-Icon.png */; };
+		DBA5A7EC13276327001E2038 /* Field-Visits-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA5A7E313276327001E2038 /* Field-Visits-Icon.png */; };
+		DBA5A7ED13276327001E2038 /* Floor-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA5A7E413276327001E2038 /* Floor-Icon.png */; };
+		DBA5A7EE13276327001E2038 /* Follow-up-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA5A7E513276327001E2038 /* Follow-up-Icon.png */; };
+		DBA5A7EF13276327001E2038 /* Meeting-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA5A7E613276327001E2038 /* Meeting-Icon.png */; };
+		DBA5A7F013276327001E2038 /* Planning-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA5A7E713276327001E2038 /* Planning-Icon.png */; };
+		DBA5A7F113276327001E2038 /* presentation-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA5A7E813276327001E2038 /* presentation-Icon.png */; };
+		DBA5A7F213276327001E2038 /* To-do-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA5A7E913276327001E2038 /* To-do-Icon.png */; };
+		DBB1BC3B1341A9870062E5FA /* EventTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB1BC3A1341A9870062E5FA /* EventTitleCell.m */; };
+		DBB1BC3D1341A99D0062E5FA /* EventTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBB1BC3C1341A99D0062E5FA /* EventTitleCell.xib */; };
+		DBB1BC421341AC260062E5FA /* TitleAndImportanceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBB1BC411341AC260062E5FA /* TitleAndImportanceCell.xib */; };
+		DBB1BC451341AC370062E5FA /* TitleAndImportanceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB1BC441341AC370062E5FA /* TitleAndImportanceCell.m */; };
+		DBB1BC501341B31D0062E5FA /* EditCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB1BC4E1341B31D0062E5FA /* EditCalendar.m */; };
+		DBB1BC511341B31D0062E5FA /* EditCalendar.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBB1BC4F1341B31D0062E5FA /* EditCalendar.xib */; };
+		DBB1BC751341C6AC0062E5FA /* StarsEndsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB1BC741341C6AC0062E5FA /* StarsEndsCell.m */; };
+		DBB1BC771341C6BC0062E5FA /* StarsEndsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBB1BC761341C6BC0062E5FA /* StarsEndsCell.xib */; };
+		DBB1BC881341CD0B0062E5FA /* StarsAndEndsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBB1BC871341CD0B0062E5FA /* StarsAndEndsCell.xib */; };
+		DBB1BC8B1341CD1C0062E5FA /* StarsAndEndsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB1BC8A1341CD1C0062E5FA /* StarsAndEndsCell.m */; };
+		DBB4CE63134028DA00BE0E95 /* plus_clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB4CE5F134028DA00BE0E95 /* plus_clicked.png */; };
+		DBB4CE64134028DA00BE0E95 /* plus_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB4CE60134028DA00BE0E95 /* plus_normal.png */; };
+		DBB4CE65134028DA00BE0E95 /* section_close.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB4CE61134028DA00BE0E95 /* section_close.png */; };
+		DBB4CE66134028DA00BE0E95 /* section_open.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB4CE62134028DA00BE0E95 /* section_open.png */; };
+		DBB8840B13D6D85A003A30F5 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB8840A13D6D85A003A30F5 /* reset.png */; };
+		DBB8840D13D6D870003A30F5 /* setting-BT.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB8840C13D6D870003A30F5 /* setting-BT.png */; };
+		DBB8840F13D6D882003A30F5 /* info-BT.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB8840E13D6D882003A30F5 /* info-BT.png */; };
+		DBD9D7FE133C659D00829965 /* carat-open.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD9D7FC133C659D00829965 /* carat-open.png */; };
+		DBD9D7FF133C659D00829965 /* carat.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD9D7FD133C659D00829965 /* carat.png */; };
+		DBE09690133088B20049C164 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE0968F133088B20049C164 /* libsqlite3.dylib */; };
+		DBEFDD811338B672006FD242 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEFDD801338B672006FD242 /* QuartzCore.framework */; };
+		DBF3EF28132E3379004FFB26 /* AddNewCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF3EF26132E3379004FFB26 /* AddNewCompany.m */; };
+		DBF3EF29132E3379004FFB26 /* AddNewCompany.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF3EF27132E3379004FFB26 /* AddNewCompany.xib */; };
+		F2023FBA133D91D100F536FB /* UIPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F2023FB9133D91D100F536FB /* UIPicker.m */; };
+		F20242B613430CBB00F536FB /* Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = F20242AF13430CBB00F536FB /* Calendar.m */; };
+		F20242B713430CBB00F536FB /* NoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20242B113430CBB00F536FB /* NoteController.m */; };
+		F20242B813430CBB00F536FB /* TbNote.m in Sources */ = {isa = PBXBuildFile; fileRef = F20242B313430CBB00F536FB /* TbNote.m */; };
+		F20242B913430CBB00F536FB /* TradeShow.m in Sources */ = {isa = PBXBuildFile; fileRef = F20242B513430CBB00F536FB /* TradeShow.m */; };
+		F20242C213430CD200F536FB /* BaseDao.m in Sources */ = {isa = PBXBuildFile; fileRef = F20242BB13430CD200F536FB /* BaseDao.m */; };
+		F20242C313430CD200F536FB /* CalendarDao.m in Sources */ = {isa = PBXBuildFile; fileRef = F20242BD13430CD200F536FB /* CalendarDao.m */; };
+		F20242C413430CD200F536FB /* TbNoteDao.m in Sources */ = {isa = PBXBuildFile; fileRef = F20242BF13430CD200F536FB /* TbNoteDao.m */; };
+		F20242C513430CD200F536FB /* TradeShowDao.m in Sources */ = {isa = PBXBuildFile; fileRef = F20242C113430CD200F536FB /* TradeShowDao.m */; };
+		F20242CC13430CEF00F536FB /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F20242C713430CEF00F536FB /* FMDatabase.m */; };
+		F20242CD13430CEF00F536FB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F20242C913430CEF00F536FB /* FMDatabaseAdditions.m */; };
+		F20242CE13430CEF00F536FB /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F20242CB13430CEF00F536FB /* FMResultSet.m */; };
+		F20242D213430D0100F536FB /* SqlSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F20242D113430D0100F536FB /* SqlSampleAppDelegate.m */; };
+		F20245141344884400F536FB /* Baseview.m in Sources */ = {isa = PBXBuildFile; fileRef = F20245131344884400F536FB /* Baseview.m */; };
+		F20246BE1345795200F536FB /* data.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = F20246BD1345795200F536FB /* data.sqlite3 */; };
+		F2024A001346F35700F536FB /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = F20249FF1346F35700F536FB /* Company.m */; };
+		F2024A18134702F500F536FB /* CompanyDao.m in Sources */ = {isa = PBXBuildFile; fileRef = F2024A17134702F500F536FB /* CompanyDao.m */; };
+		F22286E1136025CE00573477 /* ToDo.m in Sources */ = {isa = PBXBuildFile; fileRef = F22286E0136025CE00573477 /* ToDo.m */; };
+		F22286E41360260600573477 /* Hints.m in Sources */ = {isa = PBXBuildFile; fileRef = F22286E31360260600573477 /* Hints.m */; };
+		F22286E71360261000573477 /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = F22286E61360261000573477 /* Setting.m */; };
+		F22286EA136033C300573477 /* ToDoDao.m in Sources */ = {isa = PBXBuildFile; fileRef = F22286E9136033C300573477 /* ToDoDao.m */; };
+		F22286ED136033D700573477 /* HintsDao.m in Sources */ = {isa = PBXBuildFile; fileRef = F22286EC136033D700573477 /* HintsDao.m */; };
+		F22286F0136033E500573477 /* SettingDao.m in Sources */ = {isa = PBXBuildFile; fileRef = F22286EF136033E500573477 /* SettingDao.m */; };
+		F24DA85B1355A4D600DA34DA /* Education.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA85A1355A4D600DA34DA /* Education.m */; };
+		F24DA85E1355A50700DA34DA /* Field.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA85D1355A50700DA34DA /* Field.m */; };
+		F24DA8611355A51300DA34DA /* Meeting.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA8601355A51300DA34DA /* Meeting.m */; };
+		F24DA86E1355AB9100DA34DA /* EducationDao.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA86D1355AB9100DA34DA /* EducationDao.m */; };
+		F24DA8711355ABA100DA34DA /* MeetingDao.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA8701355ABA100DA34DA /* MeetingDao.m */; };
+		F24DA8741355ABAD00DA34DA /* FieldDao.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DA8731355ABAD00DA34DA /* FieldDao.m */; };
+		F2904B3F13544B4E007E66C5 /* TodoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2904B3D13544B4E007E66C5 /* TodoController.m */; };
+		F2904B4013544B4E007E66C5 /* TodoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2904B3E13544B4E007E66C5 /* TodoController.xib */; };
+		F2904EEB1356D1ED007E66C5 /* FieldVisitsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2904EE91356D1ED007E66C5 /* FieldVisitsController.m */; };
+		F2904EEC1356D1ED007E66C5 /* FieldVisitsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2904EEA1356D1ED007E66C5 /* FieldVisitsController.xib */; };
+		F2904EFA13581191007E66C5 /* EditField.m in Sources */ = {isa = PBXBuildFile; fileRef = F2904EF813581191007E66C5 /* EditField.m */; };
+		F2904EFB13581191007E66C5 /* EditField.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2904EF913581191007E66C5 /* EditField.xib */; };
+		F292E5E913694E0300E40311 /* copyrightController.m in Sources */ = {isa = PBXBuildFile; fileRef = F292E5E713694E0300E40311 /* copyrightController.m */; };
+		F292E5EA13694E0300E40311 /* copyrightController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F292E5E813694E0300E40311 /* copyrightController.xib */; };
+		F2A1B442136118C700CA93B7 /* StatusDetailPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1B440136118C700CA93B7 /* StatusDetailPhotoCell.m */; };
+		F2A1B443136118C700CA93B7 /* StatusDetailPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A1B441136118C700CA93B7 /* StatusDetailPhotoCell.xib */; };
+		F2A1B447136118DF00CA93B7 /* EditTodo.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1B445136118DF00CA93B7 /* EditTodo.m */; };
+		F2A1B448136118DF00CA93B7 /* EditTodo.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A1B446136118DF00CA93B7 /* EditTodo.xib */; };
+		F2A1B4ED1361499400CA93B7 /* StatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1B4EB1361499400CA93B7 /* StatusCell.m */; };
+		F2A1B4EE1361499400CA93B7 /* StatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A1B4EC1361499400CA93B7 /* StatusCell.xib */; };
+		F2A1B63013616CD500CA93B7 /* SpeakerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1B62E13616CD400CA93B7 /* SpeakerCell.m */; };
+		F2A1B63113616CD500CA93B7 /* SpeakerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A1B62F13616CD500CA93B7 /* SpeakerCell.xib */; };
+		F2A1B681136182A500CA93B7 /* EditSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1B67F136182A500CA93B7 /* EditSetting.m */; };
+		F2A1B68B1361880500CA93B7 /* EditSetting.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A1B68A1361880500CA93B7 /* EditSetting.xib */; };
+		F2A1B7FC136548A100CA93B7 /* ShowHintsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1B7FA136548A100CA93B7 /* ShowHintsCell.m */; };
+		F2A1B7FD136548A100CA93B7 /* ShowHintsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A1B7FB136548A100CA93B7 /* ShowHintsCell.xib */; };
+		F2A1BB581368315A00CA93B7 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1BB571368315A00CA93B7 /* BaseController.m */; };
+		F2A1BCF2136FD09900CA93B7 /* NoteLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1BCF0136FD09900CA93B7 /* NoteLabelCell.m */; };
+		F2A1BCF3136FD09900CA93B7 /* NoteLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A1BCF1136FD09900CA93B7 /* NoteLabelCell.xib */; };
+		F2A1BD55136FDB3C00CA93B7 /* EditNotesField.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1BD53136FDB3C00CA93B7 /* EditNotesField.m */; };
+		F2A1BD56136FDB3C00CA93B7 /* EditNotesField.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A1BD54136FDB3C00CA93B7 /* EditNotesField.xib */; };
+		F2A1BD95136FE1C700CA93B7 /* NoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1BD93136FE1C700CA93B7 /* NoteCell.m */; };
+		F2A1BD96136FE1C700CA93B7 /* NoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A1BD94136FE1C700CA93B7 /* NoteCell.xib */; };
+		F2A1C0A91371254900CA93B7 /* IconNav.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A1C0A81371254900CA93B7 /* IconNav.xib */; };
+		F2A1C42313778CE300CA93B7 /* EditPlanning.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1C42113778CE300CA93B7 /* EditPlanning.m */; };
+		F2A1C42413778CE300CA93B7 /* EditPlanning.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A1C42213778CE300CA93B7 /* EditPlanning.xib */; };
+		F2A59817133DC77900D8D87D /* CalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A59815133DC77900D8D87D /* CalendarController.m */; };
+		F2A59818133DC77900D8D87D /* CalendarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A59816133DC77900D8D87D /* CalendarController.xib */; };
+		F2C388091327B1BA00BF87DE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C388081327B1BA00BF87DE /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TradeShowInfoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeShowInfoAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TradeShowInfoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeShowInfoAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TradeShowInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeShowInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* TradeShowInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeShowInfoViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* TradeShowInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeShowInfoViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TradeShowInfo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeShowInfo_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TradeShowInfo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TradeShowInfo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DB0A89911356D7FB0094EE3E /* EditEducation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditEducation.h; sourceTree = "<group>"; };
+		DB0A89921356D7FB0094EE3E /* EditEducation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditEducation.m; sourceTree = "<group>"; };
+		DB0A89931356D7FB0094EE3E /* EditEducation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditEducation.xib; sourceTree = "<group>"; };
+		DB0A89BE1356D9A50094EE3E /* EducationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EducationController.h; sourceTree = "<group>"; };
+		DB0A89BF1356D9A50094EE3E /* EducationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EducationController.m; sourceTree = "<group>"; };
+		DB0A89C01356D9A50094EE3E /* EducationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationController.xib; sourceTree = "<group>"; };
+		DB0C10E41360274C00C7052B /* DoneCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoneCompany.h; sourceTree = "<group>"; };
+		DB0C10E51360274C00C7052B /* DoneCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoneCompany.m; sourceTree = "<group>"; };
+		DB0C10E71360278A00C7052B /* DoneCompany.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoneCompany.xib; sourceTree = "<group>"; };
+		DB384FCB135815E000E19839 /* NotePhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotePhotoCell.h; sourceTree = "<group>"; };
+		DB384FCC135815E000E19839 /* NotePhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotePhotoCell.m; sourceTree = "<group>"; };
+		DB384FFA13581B6800E19839 /* NotePhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotePhotoCell.xib; sourceTree = "<group>"; };
+		DB38513713583B5700E19839 /* MeetingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingController.h; sourceTree = "<group>"; };
+		DB38513813583B5700E19839 /* MeetingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingController.m; sourceTree = "<group>"; };
+		DB38513913583B5700E19839 /* MeetingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetingController.xib; sourceTree = "<group>"; };
+		DB3851781358458300E19839 /* EditMeeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditMeeting.h; sourceTree = "<group>"; };
+		DB3851791358458300E19839 /* EditMeeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditMeeting.m; sourceTree = "<group>"; };
+		DB38517A1358458300E19839 /* EditMeeting.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditMeeting.xib; sourceTree = "<group>"; };
+		DB477024133DABF9004FFB85 /* ImportanceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImportanceCell.xib; sourceTree = "<group>"; };
+		DB477027133DAC16004FFB85 /* ImportanceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportanceCell.h; sourceTree = "<group>"; };
+		DB477028133DAC16004FFB85 /* ImportanceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportanceCell.m; sourceTree = "<group>"; };
+		DB477031133DB097004FFB85 /* CompanyNameAndBoothNumberCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyNameAndBoothNumberCell.xib; sourceTree = "<group>"; };
+		DB477033133DB0A0004FFB85 /* CompanyNameAndBoothNumberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyNameAndBoothNumberCell.h; sourceTree = "<group>"; };
+		DB477034133DB0A0004FFB85 /* CompanyNameAndBoothNumberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyNameAndBoothNumberCell.m; sourceTree = "<group>"; };
+		DB477061133DC063004FFB85 /* TwoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoTableViewCell.xib; sourceTree = "<group>"; };
+		DB477064133DC0FF004FFB85 /* TwoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoTableViewCell.h; sourceTree = "<group>"; };
+		DB477065133DC0FF004FFB85 /* TwoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoTableViewCell.m; sourceTree = "<group>"; };
+		DB477124133DE158004FFB85 /* EditCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCompany.h; sourceTree = "<group>"; };
+		DB477125133DE158004FFB85 /* EditCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCompany.m; sourceTree = "<group>"; };
+		DB477126133DE158004FFB85 /* EditCompany.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditCompany.xib; sourceTree = "<group>"; };
+		DB4771CE133DF4EA004FFB85 /* plus_44_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_44_44.png; sourceTree = "<group>"; };
+		DB5996891339CF8400CFCC25 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		DB59968A1339CF8400CFCC25 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		DB74B1E1133B0F5C00BE1AAC /* SectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderView.h; sourceTree = "<group>"; };
+		DB74B1E2133B0F5C00BE1AAC /* SectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderView.m; sourceTree = "<group>"; };
+		DB74B237133B1D0F00BE1AAC /* NotePhotoHomePageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotePhotoHomePageCell.h; sourceTree = "<group>"; };
+		DB74B238133B1D0F00BE1AAC /* NotePhotoHomePageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotePhotoHomePageCell.m; sourceTree = "<group>"; };
+		DB74B23A133B1D6D00BE1AAC /* NotePhotoHomePageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NotePhotoHomePageCell.xib; path = ../NotePhotoHomePageCell.xib; sourceTree = "<group>"; };
+		DB74B399133B6D3900BE1AAC /* NotesFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesFieldCell.h; sourceTree = "<group>"; };
+		DB74B39A133B6D3900BE1AAC /* NotesFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesFieldCell.m; sourceTree = "<group>"; };
+		DB74B39C133B6D5500BE1AAC /* NotesFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NotesFieldCell.xib; path = ../NotesFieldCell.xib; sourceTree = "<group>"; };
+		DB74B3FB133B7B5000BE1AAC /* HomePageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageCell.h; sourceTree = "<group>"; };
+		DB74B3FC133B7B5000BE1AAC /* HomePageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageCell.m; sourceTree = "<group>"; };
+		DB74B3FE133B7B9E00BE1AAC /* HomePageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HomePageCell.xib; path = ../HomePageCell.xib; sourceTree = "<group>"; };
+		DB75C11213305C6700801B13 /* FloorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorController.h; sourceTree = "<group>"; };
+		DB75C11313305C6700801B13 /* FloorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorController.m; sourceTree = "<group>"; };
+		DB75C11613305C7400801B13 /* FloorController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FloorController.xib; path = ../FloorController.xib; sourceTree = "<group>"; };
+		DBA5A64713271A0E001E2038 /* HotelInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelInfoController.h; sourceTree = "<group>"; };
+		DBA5A64813271A0E001E2038 /* HotelInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelInfoController.m; sourceTree = "<group>"; };
+		DBA5A64A13271A18001E2038 /* HotelInfoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HotelInfoController.xib; path = ../HotelInfoController.xib; sourceTree = "<group>"; };
+		DBA5A7CF1327624D001E2038 /* IconNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconNav.h; sourceTree = "<group>"; };
+		DBA5A7D01327624D001E2038 /* IconNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconNav.m; sourceTree = "<group>"; };
+		DBA5A7E113276327001E2038 /* Calandar-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calandar-Icon.png"; sourceTree = "<group>"; };
+		DBA5A7E213276327001E2038 /* Education-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Education-Icon.png"; sourceTree = "<group>"; };
+		DBA5A7E313276327001E2038 /* Field-Visits-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Field-Visits-Icon.png"; sourceTree = "<group>"; };
+		DBA5A7E413276327001E2038 /* Floor-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Floor-Icon.png"; sourceTree = "<group>"; };
+		DBA5A7E513276327001E2038 /* Follow-up-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Follow-up-Icon.png"; sourceTree = "<group>"; };
+		DBA5A7E613276327001E2038 /* Meeting-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Meeting-Icon.png"; sourceTree = "<group>"; };
+		DBA5A7E713276327001E2038 /* Planning-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Planning-Icon.png"; sourceTree = "<group>"; };
+		DBA5A7E813276327001E2038 /* presentation-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "presentation-Icon.png"; sourceTree = "<group>"; };
+		DBA5A7E913276327001E2038 /* To-do-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "To-do-Icon.png"; sourceTree = "<group>"; };
+		DBB1BC391341A9870062E5FA /* EventTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTitleCell.h; sourceTree = "<group>"; };
+		DBB1BC3A1341A9870062E5FA /* EventTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTitleCell.m; sourceTree = "<group>"; };
+		DBB1BC3C1341A99D0062E5FA /* EventTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTitleCell.xib; sourceTree = "<group>"; };
+		DBB1BC411341AC260062E5FA /* TitleAndImportanceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleAndImportanceCell.xib; sourceTree = "<group>"; };
+		DBB1BC431341AC370062E5FA /* TitleAndImportanceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleAndImportanceCell.h; sourceTree = "<group>"; };
+		DBB1BC441341AC370062E5FA /* TitleAndImportanceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleAndImportanceCell.m; sourceTree = "<group>"; };
+		DBB1BC4D1341B31D0062E5FA /* EditCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCalendar.h; sourceTree = "<group>"; };
+		DBB1BC4E1341B31D0062E5FA /* EditCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCalendar.m; sourceTree = "<group>"; };
+		DBB1BC4F1341B31D0062E5FA /* EditCalendar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditCalendar.xib; sourceTree = "<group>"; };
+		DBB1BC731341C6AC0062E5FA /* StarsEndsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarsEndsCell.h; sourceTree = "<group>"; };
+		DBB1BC741341C6AC0062E5FA /* StarsEndsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarsEndsCell.m; sourceTree = "<group>"; };
+		DBB1BC761341C6BC0062E5FA /* StarsEndsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarsEndsCell.xib; sourceTree = "<group>"; };
+		DBB1BC871341CD0B0062E5FA /* StarsAndEndsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarsAndEndsCell.xib; sourceTree = "<group>"; };
+		DBB1BC891341CD1C0062E5FA /* StarsAndEndsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarsAndEndsCell.h; sourceTree = "<group>"; };
+		DBB1BC8A1341CD1C0062E5FA /* StarsAndEndsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarsAndEndsCell.m; sourceTree = "<group>"; };
+		DBB4CE5F134028DA00BE0E95 /* plus_clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_clicked.png; sourceTree = "<group>"; };
+		DBB4CE60134028DA00BE0E95 /* plus_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_normal.png; sourceTree = "<group>"; };
+		DBB4CE61134028DA00BE0E95 /* section_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = section_close.png; sourceTree = "<group>"; };
+		DBB4CE62134028DA00BE0E95 /* section_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = section_open.png; sourceTree = "<group>"; };
+		DBB8840A13D6D85A003A30F5 /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		DBB8840C13D6D870003A30F5 /* setting-BT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting-BT.png"; sourceTree = "<group>"; };
+		DBB8840E13D6D882003A30F5 /* info-BT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-BT.png"; sourceTree = "<group>"; };
+		DBD9D7FC133C659D00829965 /* carat-open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carat-open.png"; sourceTree = "<group>"; };
+		DBD9D7FD133C659D00829965 /* carat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carat.png; sourceTree = "<group>"; };
+		DBE0968F133088B20049C164 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DBEFDD801338B672006FD242 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DBF3EF25132E3379004FFB26 /* AddNewCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewCompany.h; sourceTree = "<group>"; };
+		DBF3EF26132E3379004FFB26 /* AddNewCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewCompany.m; sourceTree = "<group>"; };
+		DBF3EF27132E3379004FFB26 /* AddNewCompany.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewCompany.xib; sourceTree = "<group>"; };
+		F2023FB8133D91D100F536FB /* UIPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPicker.h; sourceTree = "<group>"; };
+		F2023FB9133D91D100F536FB /* UIPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPicker.m; sourceTree = "<group>"; };
+		F20242AE13430CBB00F536FB /* Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calendar.h; sourceTree = "<group>"; };
+		F20242AF13430CBB00F536FB /* Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calendar.m; sourceTree = "<group>"; };
+		F20242B013430CBB00F536FB /* NoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteController.h; sourceTree = "<group>"; };
+		F20242B113430CBB00F536FB /* NoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteController.m; sourceTree = "<group>"; };
+		F20242B213430CBB00F536FB /* TbNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbNote.h; sourceTree = "<group>"; };
+		F20242B313430CBB00F536FB /* TbNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TbNote.m; sourceTree = "<group>"; };
+		F20242B413430CBB00F536FB /* TradeShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeShow.h; sourceTree = "<group>"; };
+		F20242B513430CBB00F536FB /* TradeShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeShow.m; sourceTree = "<group>"; };
+		F20242BA13430CD200F536FB /* BaseDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDao.h; sourceTree = "<group>"; };
+		F20242BB13430CD200F536FB /* BaseDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDao.m; sourceTree = "<group>"; };
+		F20242BC13430CD200F536FB /* CalendarDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDao.h; sourceTree = "<group>"; };
+		F20242BD13430CD200F536FB /* CalendarDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDao.m; sourceTree = "<group>"; };
+		F20242BE13430CD200F536FB /* TbNoteDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbNoteDao.h; sourceTree = "<group>"; };
+		F20242BF13430CD200F536FB /* TbNoteDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TbNoteDao.m; sourceTree = "<group>"; };
+		F20242C013430CD200F536FB /* TradeShowDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeShowDao.h; sourceTree = "<group>"; };
+		F20242C113430CD200F536FB /* TradeShowDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeShowDao.m; sourceTree = "<group>"; };
+		F20242C613430CEF00F536FB /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		F20242C713430CEF00F536FB /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		F20242C813430CEF00F536FB /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		F20242C913430CEF00F536FB /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		F20242CA13430CEF00F536FB /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		F20242CB13430CEF00F536FB /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		F20242D013430D0100F536FB /* SqlSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlSampleAppDelegate.h; sourceTree = "<group>"; };
+		F20242D113430D0100F536FB /* SqlSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlSampleAppDelegate.m; sourceTree = "<group>"; };
+		F20245121344884400F536FB /* Baseview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baseview.h; sourceTree = "<group>"; };
+		F20245131344884400F536FB /* Baseview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Baseview.m; sourceTree = "<group>"; };
+		F20246BD1345795200F536FB /* data.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.sqlite3; sourceTree = "<group>"; };
+		F20249FE1346F35700F536FB /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		F20249FF1346F35700F536FB /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		F2024A16134702F500F536FB /* CompanyDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyDao.h; sourceTree = "<group>"; };
+		F2024A17134702F500F536FB /* CompanyDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyDao.m; sourceTree = "<group>"; };
+		F22286DF136025CE00573477 /* ToDo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDo.h; sourceTree = "<group>"; };
+		F22286E0136025CE00573477 /* ToDo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDo.m; sourceTree = "<group>"; };
+		F22286E21360260600573477 /* Hints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hints.h; sourceTree = "<group>"; };
+		F22286E31360260600573477 /* Hints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hints.m; sourceTree = "<group>"; };
+		F22286E51360261000573477 /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = "<group>"; };
+		F22286E61360261000573477 /* Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setting.m; sourceTree = "<group>"; };
+		F22286E8136033C300573477 /* ToDoDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoDao.h; sourceTree = "<group>"; };
+		F22286E9136033C300573477 /* ToDoDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoDao.m; sourceTree = "<group>"; };
+		F22286EB136033D700573477 /* HintsDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HintsDao.h; sourceTree = "<group>"; };
+		F22286EC136033D700573477 /* HintsDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HintsDao.m; sourceTree = "<group>"; };
+		F22286EE136033E500573477 /* SettingDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingDao.h; sourceTree = "<group>"; };
+		F22286EF136033E500573477 /* SettingDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingDao.m; sourceTree = "<group>"; };
+		F24DA8591355A4D600DA34DA /* Education.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Education.h; sourceTree = "<group>"; };
+		F24DA85A1355A4D600DA34DA /* Education.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Education.m; sourceTree = "<group>"; };
+		F24DA85C1355A50700DA34DA /* Field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Field.h; sourceTree = "<group>"; };
+		F24DA85D1355A50700DA34DA /* Field.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Field.m; sourceTree = "<group>"; };
+		F24DA85F1355A51300DA34DA /* Meeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meeting.h; sourceTree = "<group>"; };
+		F24DA8601355A51300DA34DA /* Meeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meeting.m; sourceTree = "<group>"; };
+		F24DA86C1355AB9100DA34DA /* EducationDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EducationDao.h; sourceTree = "<group>"; };
+		F24DA86D1355AB9100DA34DA /* EducationDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EducationDao.m; sourceTree = "<group>"; };
+		F24DA86F1355ABA100DA34DA /* MeetingDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetingDao.h; sourceTree = "<group>"; };
+		F24DA8701355ABA100DA34DA /* MeetingDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetingDao.m; sourceTree = "<group>"; };
+		F24DA8721355ABAD00DA34DA /* FieldDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldDao.h; sourceTree = "<group>"; };
+		F24DA8731355ABAD00DA34DA /* FieldDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldDao.m; sourceTree = "<group>"; };
+		F2904B3C13544B4E007E66C5 /* TodoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoController.h; sourceTree = "<group>"; };
+		F2904B3D13544B4E007E66C5 /* TodoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoController.m; sourceTree = "<group>"; };
+		F2904B3E13544B4E007E66C5 /* TodoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoController.xib; sourceTree = "<group>"; };
+		F2904EE81356D1ED007E66C5 /* FieldVisitsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldVisitsController.h; sourceTree = "<group>"; };
+		F2904EE91356D1ED007E66C5 /* FieldVisitsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldVisitsController.m; sourceTree = "<group>"; };
+		F2904EEA1356D1ED007E66C5 /* FieldVisitsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FieldVisitsController.xib; sourceTree = "<group>"; };
+		F2904EF713581191007E66C5 /* EditField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditField.h; sourceTree = "<group>"; };
+		F2904EF813581191007E66C5 /* EditField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditField.m; sourceTree = "<group>"; };
+		F2904EF913581191007E66C5 /* EditField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditField.xib; sourceTree = "<group>"; };
+		F292E5E613694E0300E40311 /* copyrightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = copyrightController.h; sourceTree = "<group>"; };
+		F292E5E713694E0300E40311 /* copyrightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = copyrightController.m; sourceTree = "<group>"; };
+		F292E5E813694E0300E40311 /* copyrightController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = copyrightController.xib; sourceTree = "<group>"; };
+		F2A1B43F136118C700CA93B7 /* StatusDetailPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusDetailPhotoCell.h; sourceTree = "<group>"; };
+		F2A1B440136118C700CA93B7 /* StatusDetailPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusDetailPhotoCell.m; sourceTree = "<group>"; };
+		F2A1B441136118C700CA93B7 /* StatusDetailPhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusDetailPhotoCell.xib; sourceTree = "<group>"; };
+		F2A1B444136118DF00CA93B7 /* EditTodo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTodo.h; sourceTree = "<group>"; };
+		F2A1B445136118DF00CA93B7 /* EditTodo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTodo.m; sourceTree = "<group>"; };
+		F2A1B446136118DF00CA93B7 /* EditTodo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditTodo.xib; sourceTree = "<group>"; };
+		F2A1B4EA1361499400CA93B7 /* StatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusCell.h; sourceTree = "<group>"; };
+		F2A1B4EB1361499400CA93B7 /* StatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusCell.m; sourceTree = "<group>"; };
+		F2A1B4EC1361499400CA93B7 /* StatusCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusCell.xib; sourceTree = "<group>"; };
+		F2A1B62D13616CD400CA93B7 /* SpeakerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerCell.h; sourceTree = "<group>"; };
+		F2A1B62E13616CD400CA93B7 /* SpeakerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerCell.m; sourceTree = "<group>"; };
+		F2A1B62F13616CD500CA93B7 /* SpeakerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpeakerCell.xib; sourceTree = "<group>"; };
+		F2A1B67E136182A500CA93B7 /* EditSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditSetting.h; sourceTree = "<group>"; };
+		F2A1B67F136182A500CA93B7 /* EditSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditSetting.m; sourceTree = "<group>"; };
+		F2A1B68A1361880500CA93B7 /* EditSetting.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditSetting.xib; sourceTree = "<group>"; };
+		F2A1B7F9136548A100CA93B7 /* ShowHintsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowHintsCell.h; sourceTree = "<group>"; };
+		F2A1B7FA136548A100CA93B7 /* ShowHintsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowHintsCell.m; sourceTree = "<group>"; };
+		F2A1B7FB136548A100CA93B7 /* ShowHintsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowHintsCell.xib; sourceTree = "<group>"; };
+		F2A1BB561368315A00CA93B7 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		F2A1BB571368315A00CA93B7 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		F2A1BCEF136FD09900CA93B7 /* NoteLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteLabelCell.h; sourceTree = "<group>"; };
+		F2A1BCF0136FD09900CA93B7 /* NoteLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteLabelCell.m; sourceTree = "<group>"; };
+		F2A1BCF1136FD09900CA93B7 /* NoteLabelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteLabelCell.xib; sourceTree = "<group>"; };
+		F2A1BD52136FDB3C00CA93B7 /* EditNotesField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditNotesField.h; sourceTree = "<group>"; };
+		F2A1BD53136FDB3C00CA93B7 /* EditNotesField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditNotesField.m; sourceTree = "<group>"; };
+		F2A1BD54136FDB3C00CA93B7 /* EditNotesField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditNotesField.xib; sourceTree = "<group>"; };
+		F2A1BD92136FE1C700CA93B7 /* NoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteCell.h; sourceTree = "<group>"; };
+		F2A1BD93136FE1C700CA93B7 /* NoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteCell.m; sourceTree = "<group>"; };
+		F2A1BD94136FE1C700CA93B7 /* NoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteCell.xib; sourceTree = "<group>"; };
+		F2A1C0A81371254900CA93B7 /* IconNav.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IconNav.xib; sourceTree = SOURCE_ROOT; };
+		F2A1C42013778CE300CA93B7 /* EditPlanning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPlanning.h; sourceTree = "<group>"; };
+		F2A1C42113778CE300CA93B7 /* EditPlanning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPlanning.m; sourceTree = "<group>"; };
+		F2A1C42213778CE300CA93B7 /* EditPlanning.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditPlanning.xib; sourceTree = "<group>"; };
+		F2A59814133DC77900D8D87D /* CalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarController.h; sourceTree = "<group>"; };
+		F2A59815133DC77900D8D87D /* CalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarController.m; sourceTree = "<group>"; };
+		F2A59816133DC77900D8D87D /* CalendarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarController.xib; sourceTree = "<group>"; };
+		F2C388081327B1BA00BF87DE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				DBE09690133088B20049C164 /* libsqlite3.dylib in Frameworks */,
+				DBEFDD811338B672006FD242 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F20242AD13430C7600F536FB /* FMDB */,
+				F20242AC13430C4E00F536FB /* Dto */,
+				F20242AB13430C4400F536FB /* Dao */,
+				DBD9D748133C52E700829965 /* Common */,
+				DBD9D744133C523700829965 /* TradeShow */,
+				1D3623240D0F684500981E51 /* TradeShowInfoAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TradeShowInfoAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* TradeShowInfoViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* TradeShowInfoViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TradeShowInfo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TradeShowInfo_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F20246BD1345795200F536FB /* data.sqlite3 */,
+				DBA5A7E013276304001E2038 /* Images */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* TradeShowInfo-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBEFDD801338B672006FD242 /* QuartzCore.framework */,
+				DBE0968F133088B20049C164 /* libsqlite3.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB0A89671356D7350094EE3E /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				DB0A89911356D7FB0094EE3E /* EditEducation.h */,
+				DB0A89921356D7FB0094EE3E /* EditEducation.m */,
+				DB0A89931356D7FB0094EE3E /* EditEducation.xib */,
+				DB0A89BE1356D9A50094EE3E /* EducationController.h */,
+				DB0A89BF1356D9A50094EE3E /* EducationController.m */,
+				DB0A89C01356D9A50094EE3E /* EducationController.xib */,
+				DB384FCB135815E000E19839 /* NotePhotoCell.h */,
+				DB384FCC135815E000E19839 /* NotePhotoCell.m */,
+				DB384FFA13581B6800E19839 /* NotePhotoCell.xib */,
+				F2A1B62D13616CD400CA93B7 /* SpeakerCell.h */,
+				F2A1B62E13616CD400CA93B7 /* SpeakerCell.m */,
+				F2A1B62F13616CD500CA93B7 /* SpeakerCell.xib */,
+			);
+			name = Education;
+			sourceTree = "<group>";
+		};
+		DB38513513583B3900E19839 /* Meetings */ = {
+			isa = PBXGroup;
+			children = (
+				DB38513713583B5700E19839 /* MeetingController.h */,
+				DB38513813583B5700E19839 /* MeetingController.m */,
+				DB38513913583B5700E19839 /* MeetingController.xib */,
+				DB3851781358458300E19839 /* EditMeeting.h */,
+				DB3851791358458300E19839 /* EditMeeting.m */,
+				DB38517A1358458300E19839 /* EditMeeting.xib */,
+				F2A1BD52136FDB3C00CA93B7 /* EditNotesField.h */,
+				F2A1BD53136FDB3C00CA93B7 /* EditNotesField.m */,
+				F2A1BD54136FDB3C00CA93B7 /* EditNotesField.xib */,
+				F2A1BD92136FE1C700CA93B7 /* NoteCell.h */,
+				F2A1BD93136FE1C700CA93B7 /* NoteCell.m */,
+				F2A1BD94136FE1C700CA93B7 /* NoteCell.xib */,
+			);
+			name = Meetings;
+			sourceTree = "<group>";
+		};
+		DBA5A7E013276304001E2038 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DBB8840A13D6D85A003A30F5 /* reset.png */,
+				DBB8840C13D6D870003A30F5 /* setting-BT.png */,
+				DBB8840E13D6D882003A30F5 /* info-BT.png */,
+				DBB4CE5F134028DA00BE0E95 /* plus_clicked.png */,
+				DBB4CE60134028DA00BE0E95 /* plus_normal.png */,
+				DBB4CE61134028DA00BE0E95 /* section_close.png */,
+				DBB4CE62134028DA00BE0E95 /* section_open.png */,
+				DB4771CE133DF4EA004FFB85 /* plus_44_44.png */,
+				DBD9D7FC133C659D00829965 /* carat-open.png */,
+				DBD9D7FD133C659D00829965 /* carat.png */,
+				F2C388081327B1BA00BF87DE /* Icon.png */,
+				DBA5A7E113276327001E2038 /* Calandar-Icon.png */,
+				DBA5A7E213276327001E2038 /* Education-Icon.png */,
+				DBA5A7E313276327001E2038 /* Field-Visits-Icon.png */,
+				DBA5A7E413276327001E2038 /* Floor-Icon.png */,
+				DBA5A7E513276327001E2038 /* Follow-up-Icon.png */,
+				DBA5A7E613276327001E2038 /* Meeting-Icon.png */,
+				DBA5A7E713276327001E2038 /* Planning-Icon.png */,
+				DBA5A7E813276327001E2038 /* presentation-Icon.png */,
+				DBA5A7E913276327001E2038 /* To-do-Icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DBD9D744133C523700829965 /* TradeShow */ = {
+			isa = PBXGroup;
+			children = (
+				F2A1C41A13778A5100CA93B7 /* Planning */,
+				F2A1B67D1361827100CA93B7 /* Setting */,
+				DB38513513583B3900E19839 /* Meetings */,
+				DB0A89671356D7350094EE3E /* Education */,
+				F2904EE51356D197007E66C5 /* Field visit */,
+				F2904B2F13544B06007E66C5 /* Todos */,
+				F2A59811133DC6ED00D8D87D /* Calendar */,
+				DBD9D74B133C540100829965 /* Hotel */,
+				DBD9D74A133C533500829965 /* Floor */,
+				DBD9D749133C530B00829965 /* Home */,
+				DBD9D747133C527500829965 /* Company */,
+				DBD9D746133C526900829965 /* CommonCells */,
+			);
+			name = TradeShow;
+			sourceTree = "<group>";
+		};
+		DBD9D746133C526900829965 /* CommonCells */ = {
+			isa = PBXGroup;
+			children = (
+				DBB1BC391341A9870062E5FA /* EventTitleCell.h */,
+				DBB1BC3A1341A9870062E5FA /* EventTitleCell.m */,
+				DBB1BC3C1341A99D0062E5FA /* EventTitleCell.xib */,
+				DB74B399133B6D3900BE1AAC /* NotesFieldCell.h */,
+				DB74B39A133B6D3900BE1AAC /* NotesFieldCell.m */,
+				DB74B39C133B6D5500BE1AAC /* NotesFieldCell.xib */,
+				DB74B3FB133B7B5000BE1AAC /* HomePageCell.h */,
+				DB74B3FC133B7B5000BE1AAC /* HomePageCell.m */,
+				DB74B3FE133B7B9E00BE1AAC /* HomePageCell.xib */,
+				DB477027133DAC16004FFB85 /* ImportanceCell.h */,
+				DB477028133DAC16004FFB85 /* ImportanceCell.m */,
+				DB477024133DABF9004FFB85 /* ImportanceCell.xib */,
+				DB477033133DB0A0004FFB85 /* CompanyNameAndBoothNumberCell.h */,
+				DB477034133DB0A0004FFB85 /* CompanyNameAndBoothNumberCell.m */,
+				DB477031133DB097004FFB85 /* CompanyNameAndBoothNumberCell.xib */,
+				DBB1BC731341C6AC0062E5FA /* StarsEndsCell.h */,
+				DBB1BC741341C6AC0062E5FA /* StarsEndsCell.m */,
+				DBB1BC761341C6BC0062E5FA /* StarsEndsCell.xib */,
+				F2A1BCEF136FD09900CA93B7 /* NoteLabelCell.h */,
+				F2A1BCF0136FD09900CA93B7 /* NoteLabelCell.m */,
+				F2A1BCF1136FD09900CA93B7 /* NoteLabelCell.xib */,
+			);
+			name = CommonCells;
+			sourceTree = "<group>";
+		};
+		DBD9D747133C527500829965 /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3EF25132E3379004FFB26 /* AddNewCompany.h */,
+				DBF3EF26132E3379004FFB26 /* AddNewCompany.m */,
+				DBF3EF27132E3379004FFB26 /* AddNewCompany.xib */,
+				DB74B237133B1D0F00BE1AAC /* NotePhotoHomePageCell.h */,
+				DB74B238133B1D0F00BE1AAC /* NotePhotoHomePageCell.m */,
+				DB74B23A133B1D6D00BE1AAC /* NotePhotoHomePageCell.xib */,
+				DB477061133DC063004FFB85 /* TwoTableViewCell.xib */,
+				DB477064133DC0FF004FFB85 /* TwoTableViewCell.h */,
+				DB477065133DC0FF004FFB85 /* TwoTableViewCell.m */,
+				DB477124133DE158004FFB85 /* EditCompany.h */,
+				DB477125133DE158004FFB85 /* EditCompany.m */,
+				DB477126133DE158004FFB85 /* EditCompany.xib */,
+				DB0C10E41360274C00C7052B /* DoneCompany.h */,
+				DB0C10E51360274C00C7052B /* DoneCompany.m */,
+				DB0C10E71360278A00C7052B /* DoneCompany.xib */,
+			);
+			name = Company;
+			sourceTree = "<group>";
+		};
+		DBD9D748133C52E700829965 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DB74B1E1133B0F5C00BE1AAC /* SectionHeaderView.h */,
+				DB74B1E2133B0F5C00BE1AAC /* SectionHeaderView.m */,
+				DB5996891339CF8400CFCC25 /* Constants.h */,
+				DB59968A1339CF8400CFCC25 /* Constants.m */,
+				F2023FB8133D91D100F536FB /* UIPicker.h */,
+				F2023FB9133D91D100F536FB /* UIPicker.m */,
+				F20245121344884400F536FB /* Baseview.h */,
+				F20245131344884400F536FB /* Baseview.m */,
+				F2A1BB561368315A00CA93B7 /* BaseController.h */,
+				F2A1BB571368315A00CA93B7 /* BaseController.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		DBD9D749133C530B00829965 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DBA5A7CF1327624D001E2038 /* IconNav.h */,
+				DBA5A7D01327624D001E2038 /* IconNav.m */,
+				F2A1C0A81371254900CA93B7 /* IconNav.xib */,
+				F292E5E613694E0300E40311 /* copyrightController.h */,
+				F292E5E713694E0300E40311 /* copyrightController.m */,
+				F292E5E813694E0300E40311 /* copyrightController.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		DBD9D74A133C533500829965 /* Floor */ = {
+			isa = PBXGroup;
+			children = (
+				DB75C11213305C6700801B13 /* FloorController.h */,
+				DB75C11313305C6700801B13 /* FloorController.m */,
+				DB75C11613305C7400801B13 /* FloorController.xib */,
+			);
+			name = Floor;
+			sourceTree = "<group>";
+		};
+		DBD9D74B133C540100829965 /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+				DBA5A64713271A0E001E2038 /* HotelInfoController.h */,
+				DBA5A64813271A0E001E2038 /* HotelInfoController.m */,
+				DBA5A64A13271A18001E2038 /* HotelInfoController.xib */,
+			);
+			name = Hotel;
+			sourceTree = "<group>";
+		};
+		F20242AB13430C4400F536FB /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				F20242D013430D0100F536FB /* SqlSampleAppDelegate.h */,
+				F20242D113430D0100F536FB /* SqlSampleAppDelegate.m */,
+				F20242BA13430CD200F536FB /* BaseDao.h */,
+				F20242BB13430CD200F536FB /* BaseDao.m */,
+				F20242BC13430CD200F536FB /* CalendarDao.h */,
+				F20242BD13430CD200F536FB /* CalendarDao.m */,
+				F20242BE13430CD200F536FB /* TbNoteDao.h */,
+				F20242BF13430CD200F536FB /* TbNoteDao.m */,
+				F20242C013430CD200F536FB /* TradeShowDao.h */,
+				F20242C113430CD200F536FB /* TradeShowDao.m */,
+				F2024A16134702F500F536FB /* CompanyDao.h */,
+				F2024A17134702F500F536FB /* CompanyDao.m */,
+				F24DA86C1355AB9100DA34DA /* EducationDao.h */,
+				F24DA86D1355AB9100DA34DA /* EducationDao.m */,
+				F24DA86F1355ABA100DA34DA /* MeetingDao.h */,
+				F24DA8701355ABA100DA34DA /* MeetingDao.m */,
+				F24DA8721355ABAD00DA34DA /* FieldDao.h */,
+				F24DA8731355ABAD00DA34DA /* FieldDao.m */,
+				F22286E8136033C300573477 /* ToDoDao.h */,
+				F22286E9136033C300573477 /* ToDoDao.m */,
+				F22286EB136033D700573477 /* HintsDao.h */,
+				F22286EC136033D700573477 /* HintsDao.m */,
+				F22286EE136033E500573477 /* SettingDao.h */,
+				F22286EF136033E500573477 /* SettingDao.m */,
+			);
+			name = Dao;
+			sourceTree = "<group>";
+		};
+		F20242AC13430C4E00F536FB /* Dto */ = {
+			isa = PBXGroup;
+			children = (
+				F20242AE13430CBB00F536FB /* Calendar.h */,
+				F20242AF13430CBB00F536FB /* Calendar.m */,
+				F20242B013430CBB00F536FB /* NoteController.h */,
+				F20242B113430CBB00F536FB /* NoteController.m */,
+				F20242B213430CBB00F536FB /* TbNote.h */,
+				F20242B313430CBB00F536FB /* TbNote.m */,
+				F20242B413430CBB00F536FB /* TradeShow.h */,
+				F20242B513430CBB00F536FB /* TradeShow.m */,
+				F20249FE1346F35700F536FB /* Company.h */,
+				F20249FF1346F35700F536FB /* Company.m */,
+				F24DA8591355A4D600DA34DA /* Education.h */,
+				F24DA85A1355A4D600DA34DA /* Education.m */,
+				F24DA85C1355A50700DA34DA /* Field.h */,
+				F24DA85D1355A50700DA34DA /* Field.m */,
+				F24DA85F1355A51300DA34DA /* Meeting.h */,
+				F24DA8601355A51300DA34DA /* Meeting.m */,
+				F22286DF136025CE00573477 /* ToDo.h */,
+				F22286E0136025CE00573477 /* ToDo.m */,
+				F22286E21360260600573477 /* Hints.h */,
+				F22286E31360260600573477 /* Hints.m */,
+				F22286E51360261000573477 /* Setting.h */,
+				F22286E61360261000573477 /* Setting.m */,
+			);
+			name = Dto;
+			sourceTree = "<group>";
+		};
+		F20242AD13430C7600F536FB /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				F20242C613430CEF00F536FB /* FMDatabase.h */,
+				F20242C713430CEF00F536FB /* FMDatabase.m */,
+				F20242C813430CEF00F536FB /* FMDatabaseAdditions.h */,
+				F20242C913430CEF00F536FB /* FMDatabaseAdditions.m */,
+				F20242CA13430CEF00F536FB /* FMResultSet.h */,
+				F20242CB13430CEF00F536FB /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		F2904B2F13544B06007E66C5 /* Todos */ = {
+			isa = PBXGroup;
+			children = (
+				F2A1B444136118DF00CA93B7 /* EditTodo.h */,
+				F2A1B445136118DF00CA93B7 /* EditTodo.m */,
+				F2A1B446136118DF00CA93B7 /* EditTodo.xib */,
+				F2A1B43F136118C700CA93B7 /* StatusDetailPhotoCell.h */,
+				F2A1B440136118C700CA93B7 /* StatusDetailPhotoCell.m */,
+				F2A1B441136118C700CA93B7 /* StatusDetailPhotoCell.xib */,
+				F2904B3C13544B4E007E66C5 /* TodoController.h */,
+				F2904B3D13544B4E007E66C5 /* TodoController.m */,
+				F2904B3E13544B4E007E66C5 /* TodoController.xib */,
+				F2A1B4EA1361499400CA93B7 /* StatusCell.h */,
+				F2A1B4EB1361499400CA93B7 /* StatusCell.m */,
+				F2A1B4EC1361499400CA93B7 /* StatusCell.xib */,
+			);
+			name = Todos;
+			sourceTree = "<group>";
+		};
+		F2904EE51356D197007E66C5 /* Field visit */ = {
+			isa = PBXGroup;
+			children = (
+				F2904EE81356D1ED007E66C5 /* FieldVisitsController.h */,
+				F2904EE91356D1ED007E66C5 /* FieldVisitsController.m */,
+				F2904EEA1356D1ED007E66C5 /* FieldVisitsController.xib */,
+				F2904EF713581191007E66C5 /* EditField.h */,
+				F2904EF813581191007E66C5 /* EditField.m */,
+				F2904EF913581191007E66C5 /* EditField.xib */,
+			);
+			name = "Field visit";
+			sourceTree = "<group>";
+		};
+		F2A1B67D1361827100CA93B7 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				F2A1B67E136182A500CA93B7 /* EditSetting.h */,
+				F2A1B67F136182A500CA93B7 /* EditSetting.m */,
+				F2A1B68A1361880500CA93B7 /* EditSetting.xib */,
+				F2A1B7F9136548A100CA93B7 /* ShowHintsCell.h */,
+				F2A1B7FA136548A100CA93B7 /* ShowHintsCell.m */,
+				F2A1B7FB136548A100CA93B7 /* ShowHintsCell.xib */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		F2A1C41A13778A5100CA93B7 /* Planning */ = {
+			isa = PBXGroup;
+			children = (
+				F2A1C42013778CE300CA93B7 /* EditPlanning.h */,
+				F2A1C42113778CE300CA93B7 /* EditPlanning.m */,
+				F2A1C42213778CE300CA93B7 /* EditPlanning.xib */,
+			);
+			name = Planning;
+			sourceTree = "<group>";
+		};
+		F2A59811133DC6ED00D8D87D /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				F2A59814133DC77900D8D87D /* CalendarController.h */,
+				F2A59815133DC77900D8D87D /* CalendarController.m */,
+				F2A59816133DC77900D8D87D /* CalendarController.xib */,
+				DBB1BC411341AC260062E5FA /* TitleAndImportanceCell.xib */,
+				DBB1BC431341AC370062E5FA /* TitleAndImportanceCell.h */,
+				DBB1BC441341AC370062E5FA /* TitleAndImportanceCell.m */,
+				DBB1BC4D1341B31D0062E5FA /* EditCalendar.h */,
+				DBB1BC4E1341B31D0062E5FA /* EditCalendar.m */,
+				DBB1BC4F1341B31D0062E5FA /* EditCalendar.xib */,
+				DBB1BC871341CD0B0062E5FA /* StarsAndEndsCell.xib */,
+				DBB1BC891341CD1C0062E5FA /* StarsAndEndsCell.h */,
+				DBB1BC8A1341CD1C0062E5FA /* StarsAndEndsCell.m */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TradeShowInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TradeShowInfo" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TradeShowInfo;
+			productName = TradeShowInfo;
+			productReference = 1D6058910D05DD3D006BFB54 /* TradeShowInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TradeShowInfo" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TradeShowInfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				DBA5A64B13271A18001E2038 /* HotelInfoController.xib in Resources */,
+				DBA5A7EA13276327001E2038 /* Calandar-Icon.png in Resources */,
+				DBA5A7EB13276327001E2038 /* Education-Icon.png in Resources */,
+				DBA5A7EC13276327001E2038 /* Field-Visits-Icon.png in Resources */,
+				DBA5A7ED13276327001E2038 /* Floor-Icon.png in Resources */,
+				DBA5A7EE13276327001E2038 /* Follow-up-Icon.png in Resources */,
+				DBA5A7EF13276327001E2038 /* Meeting-Icon.png in Resources */,
+				DBA5A7F013276327001E2038 /* Planning-Icon.png in Resources */,
+				DBA5A7F113276327001E2038 /* presentation-Icon.png in Resources */,
+				DBA5A7F213276327001E2038 /* To-do-Icon.png in Resources */,
+				F2C388091327B1BA00BF87DE /* Icon.png in Resources */,
+				DBF3EF29132E3379004FFB26 /* AddNewCompany.xib in Resources */,
+				DB75C11713305C7400801B13 /* FloorController.xib in Resources */,
+				DB74B23B133B1D6D00BE1AAC /* NotePhotoHomePageCell.xib in Resources */,
+				DB74B39D133B6D5500BE1AAC /* NotesFieldCell.xib in Resources */,
+				DB74B3FF133B7B9E00BE1AAC /* HomePageCell.xib in Resources */,
+				DBD9D7FE133C659D00829965 /* carat-open.png in Resources */,
+				DBD9D7FF133C659D00829965 /* carat.png in Resources */,
+				F2A59818133DC77900D8D87D /* CalendarController.xib in Resources */,
+				DB477025133DABF9004FFB85 /* ImportanceCell.xib in Resources */,
+				DB477032133DB097004FFB85 /* CompanyNameAndBoothNumberCell.xib in Resources */,
+				DB477062133DC063004FFB85 /* TwoTableViewCell.xib in Resources */,
+				DB477128133DE158004FFB85 /* EditCompany.xib in Resources */,
+				DB4771CF133DF4EA004FFB85 /* plus_44_44.png in Resources */,
+				DBB4CE63134028DA00BE0E95 /* plus_clicked.png in Resources */,
+				DBB4CE64134028DA00BE0E95 /* plus_normal.png in Resources */,
+				DBB4CE65134028DA00BE0E95 /* section_close.png in Resources */,
+				DBB4CE66134028DA00BE0E95 /* section_open.png in Resources */,
+				DBB1BC3D1341A99D0062E5FA /* EventTitleCell.xib in Resources */,
+				DBB1BC421341AC260062E5FA /* TitleAndImportanceCell.xib in Resources */,
+				DBB1BC511341B31D0062E5FA /* EditCalendar.xib in Resources */,
+				DBB1BC771341C6BC0062E5FA /* StarsEndsCell.xib in Resources */,
+				DBB1BC881341CD0B0062E5FA /* StarsAndEndsCell.xib in Resources */,
+				F20246BE1345795200F536FB /* data.sqlite3 in Resources */,
+				F2904B4013544B4E007E66C5 /* TodoController.xib in Resources */,
+				DB0A89951356D7FB0094EE3E /* EditEducation.xib in Resources */,
+				DB0A89C21356D9A50094EE3E /* EducationController.xib in Resources */,
+				DB384FFB13581B6800E19839 /* NotePhotoCell.xib in Resources */,
+				F2904EEC1356D1ED007E66C5 /* FieldVisitsController.xib in Resources */,
+				F2904EFB13581191007E66C5 /* EditField.xib in Resources */,
+				DB38513B13583B5700E19839 /* MeetingController.xib in Resources */,
+				DB38517C1358458300E19839 /* EditMeeting.xib in Resources */,
+				DB0C10E81360278A00C7052B /* DoneCompany.xib in Resources */,
+				F2A1B443136118C700CA93B7 /* StatusDetailPhotoCell.xib in Resources */,
+				F2A1B448136118DF00CA93B7 /* EditTodo.xib in Resources */,
+				F2A1B4EE1361499400CA93B7 /* StatusCell.xib in Resources */,
+				F2A1B63113616CD500CA93B7 /* SpeakerCell.xib in Resources */,
+				F2A1B68B1361880500CA93B7 /* EditSetting.xib in Resources */,
+				F2A1B7FD136548A100CA93B7 /* ShowHintsCell.xib in Resources */,
+				F292E5EA13694E0300E40311 /* copyrightController.xib in Resources */,
+				F2A1BCF3136FD09900CA93B7 /* NoteLabelCell.xib in Resources */,
+				F2A1BD56136FDB3C00CA93B7 /* EditNotesField.xib in Resources */,
+				F2A1BD96136FE1C700CA93B7 /* NoteCell.xib in Resources */,
+				F2A1C0A91371254900CA93B7 /* IconNav.xib in Resources */,
+				F2A1C42413778CE300CA93B7 /* EditPlanning.xib in Resources */,
+				DBB8840B13D6D85A003A30F5 /* reset.png in Resources */,
+				DBB8840D13D6D870003A30F5 /* setting-BT.png in Resources */,
+				DBB8840F13D6D882003A30F5 /* info-BT.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TradeShowInfoAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* TradeShowInfoViewController.m in Sources */,
+				DBA5A64913271A0E001E2038 /* HotelInfoController.m in Sources */,
+				DBA5A7D11327624D001E2038 /* IconNav.m in Sources */,
+				DBF3EF28132E3379004FFB26 /* AddNewCompany.m in Sources */,
+				DB75C11413305C6700801B13 /* FloorController.m in Sources */,
+				DB59968B1339CF8400CFCC25 /* Constants.m in Sources */,
+				DB74B1E3133B0F5C00BE1AAC /* SectionHeaderView.m in Sources */,
+				DB74B239133B1D0F00BE1AAC /* NotePhotoHomePageCell.m in Sources */,
+				DB74B39B133B6D3900BE1AAC /* NotesFieldCell.m in Sources */,
+				DB74B3FD133B7B5000BE1AAC /* HomePageCell.m in Sources */,
+				F2A59817133DC77900D8D87D /* CalendarController.m in Sources */,
+				DB477029133DAC16004FFB85 /* ImportanceCell.m in Sources */,
+				DB477035133DB0A0004FFB85 /* CompanyNameAndBoothNumberCell.m in Sources */,
+				DB477066133DC0FF004FFB85 /* TwoTableViewCell.m in Sources */,
+				DB477127133DE158004FFB85 /* EditCompany.m in Sources */,
+				F2023FBA133D91D100F536FB /* UIPicker.m in Sources */,
+				DBB1BC3B1341A9870062E5FA /* EventTitleCell.m in Sources */,
+				DBB1BC451341AC370062E5FA /* TitleAndImportanceCell.m in Sources */,
+				DBB1BC501341B31D0062E5FA /* EditCalendar.m in Sources */,
+				DBB1BC751341C6AC0062E5FA /* StarsEndsCell.m in Sources */,
+				DBB1BC8B1341CD1C0062E5FA /* StarsAndEndsCell.m in Sources */,
+				F20242B613430CBB00F536FB /* Calendar.m in Sources */,
+				F20242B713430CBB00F536FB /* NoteController.m in Sources */,
+				F20242B813430CBB00F536FB /* TbNote.m in Sources */,
+				F20242B913430CBB00F536FB /* TradeShow.m in Sources */,
+				F20242C213430CD200F536FB /* BaseDao.m in Sources */,
+				F20242C313430CD200F536FB /* CalendarDao.m in Sources */,
+				F20242C413430CD200F536FB /* TbNoteDao.m in Sources */,
+				F20242C513430CD200F536FB /* TradeShowDao.m in Sources */,
+				F20242CC13430CEF00F536FB /* FMDatabase.m in Sources */,
+				F20242CD13430CEF00F536FB /* FMDatabaseAdditions.m in Sources */,
+				F20242CE13430CEF00F536FB /* FMResultSet.m in Sources */,
+				F20242D213430D0100F536FB /* SqlSampleAppDelegate.m in Sources */,
+				F20245141344884400F536FB /* Baseview.m in Sources */,
+				F2024A001346F35700F536FB /* Company.m in Sources */,
+				F2024A18134702F500F536FB /* CompanyDao.m in Sources */,
+				F2904B3F13544B4E007E66C5 /* TodoController.m in Sources */,
+				F24DA85B1355A4D600DA34DA /* Education.m in Sources */,
+				F24DA85E1355A50700DA34DA /* Field.m in Sources */,
+				F24DA8611355A51300DA34DA /* Meeting.m in Sources */,
+				F24DA86E1355AB9100DA34DA /* EducationDao.m in Sources */,
+				F24DA8711355ABA100DA34DA /* MeetingDao.m in Sources */,
+				F24DA8741355ABAD00DA34DA /* FieldDao.m in Sources */,
+				DB0A89941356D7FB0094EE3E /* EditEducation.m in Sources */,
+				DB0A89C11356D9A50094EE3E /* EducationController.m in Sources */,
+				DB384FCE135815E000E19839 /* NotePhotoCell.m in Sources */,
+				F2904EEB1356D1ED007E66C5 /* FieldVisitsController.m in Sources */,
+				F2904EFA13581191007E66C5 /* EditField.m in Sources */,
+				DB38513A13583B5700E19839 /* MeetingController.m in Sources */,
+				DB38517B1358458300E19839 /* EditMeeting.m in Sources */,
+				DB0C10E61360274C00C7052B /* DoneCompany.m in Sources */,
+				F22286E1136025CE00573477 /* ToDo.m in Sources */,
+				F22286E41360260600573477 /* Hints.m in Sources */,
+				F22286E71360261000573477 /* Setting.m in Sources */,
+				F22286EA136033C300573477 /* ToDoDao.m in Sources */,
+				F22286ED136033D700573477 /* HintsDao.m in Sources */,
+				F22286F0136033E500573477 /* SettingDao.m in Sources */,
+				F2A1B442136118C700CA93B7 /* StatusDetailPhotoCell.m in Sources */,
+				F2A1B447136118DF00CA93B7 /* EditTodo.m in Sources */,
+				F2A1B4ED1361499400CA93B7 /* StatusCell.m in Sources */,
+				F2A1B63013616CD500CA93B7 /* SpeakerCell.m in Sources */,
+				F2A1B681136182A500CA93B7 /* EditSetting.m in Sources */,
+				F2A1B7FC136548A100CA93B7 /* ShowHintsCell.m in Sources */,
+				F292E5E913694E0300E40311 /* copyrightController.m in Sources */,
+				F2A1BB581368315A00CA93B7 /* BaseController.m in Sources */,
+				F2A1BCF2136FD09900CA93B7 /* NoteLabelCell.m in Sources */,
+				F2A1BD55136FDB3C00CA93B7 /* EditNotesField.m in Sources */,
+				F2A1BD95136FE1C700CA93B7 /* NoteCell.m in Sources */,
+				F2A1C42313778CE300CA93B7 /* EditPlanning.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TradeShowInfo_Prefix.pch;
+				INFOPLIST_FILE = "TradeShowInfo-Info.plist";
+				PRODUCT_NAME = TradeShowInfo;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TradeShowInfo_Prefix.pch;
+				INFOPLIST_FILE = "TradeShowInfo-Info.plist";
+				PRODUCT_NAME = TradeShowInfo;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TradeShowInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TradeShowInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
